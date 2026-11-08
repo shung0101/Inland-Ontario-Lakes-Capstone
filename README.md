@@ -23,10 +23,6 @@ In the baseline model, I used the mean of the dissolved oxygen and for the linea
 Dependencies
 Project utilized Python in Google Collab. Libraries used include: Pandas, Numpy, Matplotlib, and Scikit-learn
 
-
 Limitations
-
+There are a few limitations in the data including missing observations and uneven distribution of data points between years. For testing and training purposes, I analyzed the data chronologically and split the earlier years from 1976-2011 as training and 2012-2021 as testing.
  
- Planned approach
- I will use Python with Pandas and Matplot import in Google Colab. 
- I will be reviewing the overall dataset and cleaning and preparing the dataset. This includes noting the missing values, and adding the 3 columns as discussed above. I will also be check for any duplicates. I will then use Python to create graphs, perform descriptive statistics, and other statistical analysis to look for patterns. I will use interpret these findings and include any limitations and unusual findings in my conclusion.
