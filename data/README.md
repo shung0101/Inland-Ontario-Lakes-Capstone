@@ -7,3 +7,7 @@ To downlaod the original dataset:
 2 Download the Lakes resource.
 3 Extract the downloaded ZIP file.
 You can alternatively use the direct download and follow step 3 above. 
+
+
+File of dataset uploaded.
+First tab is the prepared dataset with additional three columns. Second tab is the raw dataset.
