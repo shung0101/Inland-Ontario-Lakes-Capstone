@@ -26,3 +26,16 @@ Project utilized Python in Google Collab. Libraries used include: Pandas, Numpy,
 Limitations
 There are a few limitations in the data including missing observations and uneven distribution of data points between years. For testing and training purposes, I analyzed the data chronologically and split the earlier years from 1976-2011 as training and 2012-2021 as testing.
  
+Results and Conclusion
+Statistical Measures
+Baseline:
+ 1. MAE 2.597         
+ 2. RMSE 3.211       
+ 3. R^2 -0.0022
+
+Linear Regression:
+ 1. MAE 1.946
+ 2. RMSE 2.470
+ 3. R^2 0.4069
+
+The linear regression model has a smaller MAE and RMSE, which means that on average there are less variances with the actual data. R^2 is positive and explains about 40.6% of the variances.
