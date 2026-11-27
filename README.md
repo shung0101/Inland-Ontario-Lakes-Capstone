@@ -16,9 +16,9 @@ Methodology and Approach
 3. I created training and testing data with an 80/20% ratio based on the number of datapoints in each year chronologically. I created a baseline and linear regression model since our target variable, dissolved oxygen, is a continuous numerical amount.
 4. I included another model(model B), to test another chronological period to see if there are changes in results. The models I performed always tested on later years.
 5. I evaluated and interpreted metrics conducted for both models for comparison. Metrics included MAE, RMSE, and R^2. Limitations of the model and data were also stated in this section.
-Model	Training data	Testing data
-Model A	1976–2011	2012–2021
-Model B	1976–2006	2007–2011
+
+Model A - Training Data (1976–2011), Testing Data (2012–2021)
+Model B	- Training Data (1976–2006), Modeling Data (2007–2011)
 
 
 Model Development
