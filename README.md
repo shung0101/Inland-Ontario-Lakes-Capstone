@@ -28,10 +28,10 @@ I choose Model A as it has overall better results in linear regression compared 
 For stability and efficiency analysis, I performed Wilcoxon signed rank test.
 
 Model	Method	MAE	RMSE	R²
-A	Baseline	2.5973	3.2105	−0.0022
-A	Linear Regression	1.9461	2.4698	0.4069
-B	Baseline	2.6282	3.3258	−0.0302
-B	Linear Regression	2.0133	2.5502	0.3943
+Model A	Baseline - MAE	2.5973, RMSE	3.2105, R²	−0.0022
+Model A	Linear Regression	- MAE 1.9461,	RMSE 2.4698,	R² 0.4069
+Model B	Baseline -	MAE 2.6282,	RMSE 3.3258,	R² −0.0302
+Model B	Linear Regression	- MAE 2.0133, RMSE	2.5502,	R² 0.3943
 
 Dependencies
 Project utilized Python in Google Collab. Libraries used include: Pandas, Numpy, Matplotlib, and Scikit-learn
