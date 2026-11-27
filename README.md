@@ -8,7 +8,7 @@
   3. What is the relationship between temperature and dissolved oxygen, and how are these varying across lake, depth, and season? 
  
 Dataset source
- The dataset source is from Government of Ontario — Inland Lakes and Streams: Physical Conditions. Raw dataset includes 104,319 rows and 10 columns. 3 columns were added (Year, Month, and Season) which were derived from the date variable. Variables include: Lake, District, Township, Latitude, Longitude, Date, Year, Month, Season, Depth, Temperature, and Dissolved oxygen.
+ The dataset source is from Government of Ontario — Inland Lakes and Streams: Physical Conditions. Raw dataset includes 104,319 rows and 10 columns. 3 columns were added (Year, Month, and Season) which were derived from the date variable. Variables include Lake, District, Township, Latitude, Longitude, Date, Year, Month, Season, Depth, Temperature, and Dissolved oxygen. The raw data has missing temperature around 2,889 data points (2.77%) and missing dissolved oxygen of 26,763 (25.65%). For the final modeling dataset, we kept 76,023 rows, with around 28,269 rows removed.
 
 Methodology and Approach
 1. I inspected the data and identify and understand the variables being used. I identified the missing variables and perform descriptive statistics on the variables to understand the spread.
